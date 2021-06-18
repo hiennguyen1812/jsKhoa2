@@ -1,0 +1,15 @@
+body {
+    width: 1000px auto;
+    background-color: rgb(144, 221, 191);
+    margin: auto;
+    padding: 15px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.table {
+    display: flex;
+    text-align: center;
+
+}

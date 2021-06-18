@@ -1,0 +1,96 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.title {
+	margin: 0;
+    padding: 0;
+    margin-top: 100px;
+    font-weight: bold;
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 8%;
+    font-family: 'Courier New', Courier, monospace ;
+}
+
+
+.login {
+    width: 400px;
+    height: 420px;
+    color: #000;
+    top: 50%;
+    left: 50%;
+    padding: 60px 30px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    box-shadow: 8px 8px 50px rgb(240, 240, 240);
+    border-radius: 2rem;
+}
+
+.login input {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.login input[type=text], .login input[type=password]{
+    border: none;
+    border-bottom: 1px solid rgb(216, 228, 221);
+    background: transparent;
+    outline: none;
+    height: 30px;
+    font-size: 16px;
+    opacity: 1;
+    color: rgb(0, 0, 0);
+}
+
+.login input[type=submit]{
+    border: none;
+    outline: none;
+    width: 150px;
+    height: 40px;
+    background: var(--gradient-color);
+    color: rgb(15, 15, 15);
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 10rem;
+    
+}
+
+.login input[value=LOGIN]{
+	margin-left: 25%;
+}
+
+.login input[type=submit]:hover{
+    cursor: pointer;
+    
+}
+
+.login input::placeholder {
+    color: rgb(26, 23, 23);
+}
+
+.login a{
+    font-size: 14px;
+    text-decoration: none;
+    color: rgb(8, 8, 8);
+    opacity: 0.8;
+}
+
+.login a :hover {
+    color: rgb(24, 22, 22);
+    opacity: 1;
+}
+
+.bottom-text {
+    color: rgb(24, 22, 22);
+    margin-left: 700px;
+    margin-top: 300px;
+}
+
+.bottom-text .btn {
+	margin-top: 20px;
+}
